@@ -44,25 +44,25 @@ function colors(depth) {
     let color = "";
 
     if (depth <= 1) {
-        return color = "#e5f5e0";
+        return color = "#84fd6c";
     }
     else if (depth <= 2) {
-        return color = "#a1d99b";
+        return color = "#bfd16e";
     }
     else if (depth <= 3) {
-        return color = "#31a354";
+        return color = "#ddbf5c";
     }
     else if (depth <= 4) {
-        return color = "#ffeda0";
+        return color = "#e79b37";
     }
     else if (depth <= 5) {
-        return color = "#fec44f";
+        return color = "#ec7141";
     }
     else {
-        return color = "#de2d26";
+        return color = "#f82720";
     }
-};
 
+};
 // function to create the map
 function createMap(earthquakes) {
     // Create the base layers.
@@ -105,5 +105,4 @@ function createMap(earthquakes) {
     L.control.layers(baseMaps, overlayMaps, {
         // collapsed: false
     }).addTo(myMap);
-
 };
