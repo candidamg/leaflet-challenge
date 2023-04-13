@@ -7,7 +7,7 @@
   In this challenge all the earhquakes in the past day were selected you can find the GeoJSON data [here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson).
 
   
-![](Leaflet-Part-1\images\1-Logo.png)
+![](Leaflet-Part-1/images/1-Logo.png)
 
 2. Import and visualize the data by doing the following:
     * Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
@@ -16,16 +16,16 @@
 
         Hint: The depth of the earth can be found as the third coordinate for each earthquake.
 
-    ![Basemaps Options](Leaflet-Part-1\images\basemaps.PNG)
-    ![Street Map](Leaflet-Part-1\images\street_map.PNG)
+    ![Basemaps Options](Leaflet-Part-1/images/basemaps.PNG)
+    ![Street Map](Leaflet-Part-1/images/street_map.PNG)
 
     * Include popups that provide additional information about the earthquake when its associated marker is clicked.
 
-    ![Data from earthquake in Utah](Leaflet-Part-1\images\data_popups.PNG)
+    ![Data from earthquake in Utah](Leaflet-Part-1/images/data_popups.PNG)
 
     * Create a legend that will provide context for your map data.
 
-    ![](Leaflet-Part-1\images\legend.PNG)
+    ![](Leaflet-Part-1/images/legend.PNG)
 
 
 [FINAL HTML VIEW](https://candidamg.github.io/leaflet-challenge/)
